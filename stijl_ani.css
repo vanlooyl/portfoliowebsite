@@ -1,0 +1,178 @@
+body{
+  background-color: #FA3D41;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+.blok{
+  background-color: black;
+  height: 20rem;
+  top: 3rem;
+}
+.nek{
+  width: 10rem;
+  height: 12rem;
+  background-color: #FAC49D;
+  position: relative;
+  left: 20rem;
+  top: 35rem;
+}
+.hoofd{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 30%;
+  background-color: #FAC49D;
+  position: relative;
+  left: 15rem;
+  top: 6rem;
+}
+.oogrechts{
+  width: 3rem;
+  height: 5rem;
+  background: white;
+  border-radius: 100%;
+  position: relative;
+  top: -10rem;
+  left: 28rem;
+
+}
+.ooglinks{
+  width: 5rem;
+  height: 7rem;
+  background: white;
+  border-radius: 100%;
+  position: relative;
+  top: -4rem;
+  left: -7rem;
+  overflow: hidden;
+}
+.pipillinks{
+  width: 1.5rem;
+  height: 2rem;
+  background-color: black;
+  border-radius: 100%;
+  position: relative;
+  top: 3rem;
+  left: 1.5rem;
+}
+.pipilrechts{
+  width: 2rem;
+  height: 3rem;
+  background-color: black;
+  border-radius: 100%;
+  position: relative;
+  top: 3.7rem;
+  left: 2.5rem;
+}
+.oorlinks{
+  width: 8rem;
+  height: 10rem;
+  background-color: #FAC49D;
+  border-radius: 100%;
+  position: relative;
+  top: -9rem;
+  left: -18rem;
+}
+.oorrechts{
+  width: 8rem;
+  height: 10rem;
+  background-color: #FAC49D;
+  border-radius: 100%;
+  position: relative;
+  top: -19rem;
+  left: 4em;
+}
+.mond{
+  width: 12rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: #CD8162;
+  position: relative;
+  top: -20rem;
+  left: -8.5rem;
+  overflow: hidden;
+}
+.tand01{
+  width: 2rem;
+  height: 3rem;
+  border-radius: 50rem;
+  background-color: white;
+  position: relative;
+  right: -4rem;
+  top: -.6rem;
+}
+.tand02{
+  width: 2rem;
+  height: 3rem;
+  border-radius: 50rem;
+  background-color: white;
+  position: relative;
+  left: 7rem;
+  top:-.8rem;
+}
+.hoofdgeheeld{
+  animation-name: naarBoven;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes naarBoven {
+  25%{transform: translate(0,-5rem);
+  }
+  50%{transform: translate(0,-7rem);
+  }
+  75%{transform: translate(0,-10rem);
+  }
+  100%{transform: translate(0,-12rem);
+  }
+
+}
+.nek{
+  animation-name: langerWorden;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes langerWorden {
+  25%{transform: scale(1,3);
+  }
+  50%{transform: scale(1,4);
+  }
+  75%{transform: scale(1,4.5);
+  }
+  100%{transform: scale(1,5);
+  }
+}
+
+.pipillinks{
+  animation-name: linksNaarRechts;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes linksNaarRechts {
+  50%{transform: translate(0, .2rem);
+  }
+  100%{transform: translate(-1rem,-.5rem);
+  }
+}
+.pipilrechts{
+  animation-name: linksNaarRechts;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+@keyframes linksNaarLinks {
+  25%{transform: translate(0, 2rem);
+
+  }
+  50%{transform: translate(0, 5rem);
+  }
+  100%{transform: translate(0,10rem);
+  }
+}

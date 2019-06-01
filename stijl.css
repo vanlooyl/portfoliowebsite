@@ -1,0 +1,495 @@
+html{
+width: 600vw;
+}
+body{
+  height: 100vh;
+  overflow-y: hidden;
+  display: grid;
+  grid-template-columns: 100vw 100vw 100vw 100vw;
+}
+.foto{
+  background-image: url(achtergrondGSM.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200rem;
+}
+h1{
+  animation-name: binnenkomen;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes binnenkomen {
+  50%{transform: translate(5rem,0);
+    }
+  100%{transform: translate(22rem,0);
+    }
+}
+header > h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 10rem;
+  width: 10rem;
+  color: #c59095;
+  position: absolute;
+  top: 10rem;
+  left: -12rem;
+  grid-column: 1;
+}
+a{
+  font-family: helvetica;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 20rem;
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  grid-column: 1;
+}
+nav{
+  width: 30rem;
+  position: absolute;
+  top: 44.2rem;
+  left: 1rem;
+  position: fixed;
+  grid-column: 1;
+}
+a:hover{
+  color: pink;
+}
+.eerste{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 20rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 1rem;
+  left: 33rem;
+  grid-column: 2;
+}
+.tweede{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 17rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 11rem;
+  left: 43rem;
+  grid-column: 2;
+}
+.overmij{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 17rem;
+  text-align: left;
+  position: absolute;
+  top: 3rem;
+  left: 33rem;
+  grid-column: 2;
+}
+.ervaring{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 15rem;
+  background-color: #d4aca9;
+  padding: 1rem;
+  text-align: right;
+  position: absolute;
+  top: 12.2rem;
+  left: 43rem;
+  grid-column: 2;
+}
+.stages{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 15rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 24rem;
+  left: 33rem;
+  grid-column: 2;
+}
+.stages2{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 15rem;
+  text-align: left;
+  position: absolute;
+  top: 26rem;
+  left: 33rem;
+  grid-column: 2;
+}
+.animatie{
+  display: block;
+  height: 50rem;
+  width: 50rem;
+  position:absolute;
+  left: 70rem;
+  top: 2rem;
+}
+.tekening1, .tekening2, .tekening{
+  display: none;
+}
+#werkjes{
+  font-family: helvetica;
+  font-size: 5rem;
+  font-weight: 300;
+  color: white;
+  position: absolute;
+  top: 35rem;
+  right: -60rem;
+  background-color: #d4aca9;
+}
+.photoshop1{
+  height: 15rem;
+  position: absolute;
+  top: 22rem;
+  left: 160rem;
+}
+.photoshop2{
+  height: 20rem;
+  position: absolute;
+  top: 7rem;
+  left: 130rem;
+}
+.photoshop3{
+  height: 20rem;
+  position: absolute;
+  top: 20rem;
+  left: 145rem;
+}
+.photoshop4{
+  height: 15rem;
+  position: absolute;
+  top: 5rem;
+  left: 150rem;
+}
+.website{
+  display: none;
+}
+.websitetitel{
+  display: none;
+}
+.photoshop{
+  font-family: helvetica;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  width: 25rem;
+  position: absolute;
+  top: 30rem;
+  left: 125rem;
+  background-color: #d4aca9;
+}
+.cvtitel{
+  font-family: helvetica;
+  font-size: 3rem;
+  font-weight: 300;
+  color: white;
+  width: 20rem;
+  position: absolute;
+  top: 5rem;
+  left: 185rem;
+  background-color: #d4aca9;
+}
+.cv{
+  height: 35rem;
+  position: relative;
+  top: 8rem;
+  left: 155rem;
+}
+@supports (grid-area: auto) {
+
+	@media (min-width: 600px) {
+    html{
+      width: 680vw;
+    }
+    .foto{
+      background-image: url(insta04.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 100vh;
+    }
+    @keyframes binnenkomen {
+      50%{transform: translate(5rem,0);
+        }
+      100%{transform: translate(37rem,0);
+        }
+    }
+    .eerste, .overmij{
+      position: absolute;
+      left: 65rem;
+    }
+    .stages, .stages2{
+      position: absolute;
+      left: 67rem;
+    }
+    .tweede, .ervaring{
+      position: absolute;
+      left: 83rem;
+    }
+    .animatie{
+      position: absolute;
+      left: 110rem;
+    }
+    .website{
+      display: block;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 50rem;
+      height: 40rem;
+      position: absolute;
+      top: 5rem;
+      left: 186rem;
+    }
+    .websitetitel{
+      font-family: helvetica;
+      font-size: 4rem;
+      font-weight: 300;
+      color: white;
+      width: 35rem;
+      position: absolute;
+      top: 10rem;
+      left: 162rem;
+      background-color: #d4aca9;
+    }
+    .photoshop{
+      position: absolute;
+      left: 240rem;
+    }
+    .photoshop1{
+      position: absolute;
+      left: 250rem;
+    }
+    .photoshop2{
+      position: absolute;
+      left: 240rem;
+    }
+    .photoshop3{
+      position: absolute;
+      left: 280rem;
+      top: 10rem;
+    }
+    .photoshop4{
+      height: 15rem;
+      position: absolute;
+      left: 255rem;
+      top: 5rem;
+    }
+    .tekening{
+      display: block;
+      font-family: helvetica;
+      font-size: 4rem;
+      font-weight: 300;
+      color: white;
+      width: 25rem;
+      position: absolute;
+      top: 20rem;
+      left: 320rem;
+      background-color: #d4aca9;
+    }
+    .tekening1{
+      display: block;
+      height: 30rem;
+      position: absolute;`
+      top: 10rem;
+      left: 300rem;`
+    }
+    .tekening2{
+      display: block;
+      height: 15rem;
+      position: absolute;`
+      top: 10rem;
+      left: 330rem;`
+    }
+    .cvtitel{
+      font-family: helvetica;
+      font-size: 5rem;
+      font-weight: 300;
+      color: white;
+      width: 22rem;
+      position: absolute;
+      top: 10rem;
+      left: 395.2rem;
+      background-color: #d4aca9;
+    }
+    .cv{
+      height: 99%;
+      position: absolute;
+      top: 1rem;
+      left: 360rem;
+    }
+  }
+}
+@supports (grid-area: auto) {
+
+	@media (min-width: 1000px) {
+html{
+  width: 800vh
+}
+  @keyframes binnenkomen {
+      100%{transform: translate(55rem,0);
+        }
+    }
+header > h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 10rem;
+  color: white;
+  position: absolute;
+  top: 10rem;
+  left: -12rem;
+}
+.foto{
+  background-image: url(instgram.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1000px;
+  filter: saturate(50%);
+  grid-column: 1;
+}
+a{
+  font-family: helvetica;
+  font-size: 1.5rem;
+  font-weight: 300;
+  width: 20rem;
+  color: black;
+  text-decoration: none;
+  margin-left: 1rem;
+  grid-column: 1;
+}
+.balkje{
+  transform: rotate(90deg);
+  width: 30rem;
+  position: absolute;
+  left:73rem;
+  top: 25rem;
+  position: fixed;
+  grid-column: 1;
+}
+a:hover{
+  color: pink;
+}
+.eerste{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 20rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 3rem;
+  left: 95rem;
+  grid-column: 2;
+}
+.tweede{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 17rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 15rem;
+  left: 115rem;
+  grid-column: 2;
+}
+.overmij{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 17rem;
+  text-align: left;
+  position: absolute;
+  top: 5rem;
+  left: 95rem;
+  grid-column: 2;
+}
+.ervaring{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 15rem;
+  text-align: right;
+  position: absolute;
+  top: 16.2rem;
+  left: 115rem;
+  grid-column: 2;
+}
+.stages{
+  font-family: helvetica;
+  font-size: 1.3rem;
+  width: 18rem;
+  background-color: #d4aca9;
+  text-align: center;
+  position: absolute;
+  top: 20rem;
+  left: 95rem;
+  grid-column: 2;
+}
+.stages2{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 15rem;
+  text-align: left;
+  position: absolute;
+  top: 22rem;
+  left: 95rem;
+  grid-column: 2;
+}
+
+p{
+  font-family: helvetica;
+  font-size: 1rem;
+  width: 20rem;
+  position: absolute;
+  left: 100rem;
+}
+.animatie{
+  display: block;
+  height: 50rem;
+  width: 50rem;
+  position:absolute;
+  left: 135rem;
+  top: 2rem;
+}
+#werkjes{
+  font-family: helvetica;
+  font-size: 5rem;
+  font-weight: 300;
+  color: white;
+  position: absolute;
+  top: 35rem;
+  right: -60rem;
+  background-color: #d4aca9;
+}
+.website{
+  display: block;
+  height: 50rem;
+  width: 50rem;
+  position:absolute;
+  left: 190rem;
+  top: 2rem;
+}
+.photoshop{
+  position: absolute;
+  left: 280rem;
+  top: 32rem;
+}
+.photoshop1{
+  position: absolute;
+  left: 260rem;
+}
+.photoshop2{
+  position: absolute;
+  left: 250rem;
+}
+.photoshop3{
+  position: absolute;
+  left: 285rem;
+}
+.photoshop4{
+  position: absolute;
+  left: 265rem;
+}
+    }
+  }

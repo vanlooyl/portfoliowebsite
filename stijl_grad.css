@@ -1,0 +1,117 @@
+html{
+background: #C6FFDD;
+background: -webkit-linear-gradient(to right, #f7797d,      #FBD786, #C6FFDD);
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+}
+
+ body{
+  background-color: rgba(255,255,255, 90%);
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding: 1rem;
+}
+header > div {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+header > a {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+  margin: .5rem;
+  padding-top: -1rem;
+}
+body{
+  padding-top: 2rem;
+}
+h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  color: white;
+  width: 20rem;
+  padding: .5rem;
+  background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #eef2f3, #8e9eab);
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  width: 20rem;
+  padding: .5rem;
+  color: black;
+}
+
+body > p{
+  font-family: helvetica;
+  line-height: 1rem;
+  margin-right: 10rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+ol{
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+li{
+  font-family: helvetica;
+  line-height: 1rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  padding: .5rem;
+  width: 25rem;
+}
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+.blok01{
+  height: 10rem;
+  width: 20rem;
+  background: #b92b27;
+background: -webkit-linear-gradient(to left, #1565C0, #b92b27);
+background: linear-gradient(to left, #1565C0, #b92b27);
+}
+
+.blok02{
+  height: 10rem;
+  width: 20rem;
+  background: #12c2e9;
+background: -webkit-linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+background: linear-gradient(to left, #f64f59, #c471ed, #12c2e9);
+}
+
+.blok03{
+  height: 10rem;
+  width: 20rem;
+  background: #8A2387;
+background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);
+background: linear-gradient(to left, #F27121, #E94057, #8A2387);
+}
+.logo{
+  background-image: url(cssgradients.png);
+  height: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo02{
+  background-image: url(mycolorspace.png);
+  height: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.logo03{
+  background-image: url(gradientguru.png);
+  height: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
